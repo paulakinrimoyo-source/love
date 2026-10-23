@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+}
+.parent{
+    width: 90%;
+    /* height: 500px; */
+    border: solid 1px;
+    margin: auto;
+}
+.heading{
+    width: 100%;
+    border: solid 1px;
+    height:50px;
+    display: flex;
+    gap: 60px;
+    background-color: #1e88e5;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    font-weight: 600;
+}
+.pig{
+    /* border: solid 1px blue; */
+    padding-top: -50px;
+    margin-top: -35px;
+    padding-left: 30px;
+}
+.jack{
+    border: solid 1px;
+    width: 150px;
+    height: 20px;
+    padding-top: 5px;
+    position: relative;
+    left: 440px;
+}
+.o{
+    text-decoration: none;
+}
+.goat{
+    margin-left: 300px;
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+.timshol{
+    font-size: 40px;
+    color:white;
+    padding-top: 40px;
+}
+/* .search{
+    width: 200px;
+    height: 60%;
+    border-radius: 20px;
+    margin-top: 7px;
+} */
+.hero{
+    background: linear-gradient(rgba(255,255,2555,0.7),rgba(200,230,255,0.7));
+    background-size: cover;
+    text-align: center;
+    padding: 100px 20px;
+    color: #0d47a1;
+}
+.hero h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    color: #0d47a1;
+}
+.hero p{
+    font-size: 20px;
+    color: #1a237e;
+}
+.hero car {
+    background-color: white;
+    color: #1e88e5;
+    border: solid 2px #1e88e5;
+    padding: 12px 35px;
+    border-radius: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.paul{
+    font-size: 20px;
+    /* width: 60px; */
+    /* border: solid 1px palegreen; */
+    position: relative;
+    left: 100px;
+    color: white;
+}
+.mug{
+    background-color:#0d47a1;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    /* max-width: 800px; */
+    /* margin: auto; */
+    line-height: 1.7;
+    width: 95.5%;
+    /* margin-left: 5px; */
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 20px;
+}
+.card{
+    background: #f0f8ff;
+    border: solid 1px #bbdefb;
+    padding: 30px 20px;
+    border-radius: 15px;
+    /* width: 300px; */
+    text-align: center;
+    box-shadow: 0 4px 10px rgb(0,0,0,0.05);
+}
+.service{
+    padding: 50px 40px;
+    max-width: 100s;
+    background-color: #0d2a5e;
+    height: 520px;
+}
+.card h3 {
+    color: #0d2a5e;
+    margin: 15px 0 10px;
+    font-size: 22px;
+}
+.card p{
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+.pot{
+    font-size: 30px;
+    background-color: #1e88e5;
+    border: solid 2px #1e88e5;
+    width: 320px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 0 auto 15px;
+}
+.pot p{
+    position: relative;
+    bottom: -40px;
+    left: 40px;
+    /* border: solid 1px blue; */
+    width: 220px;
+    font-size: 50px;
+}
+.pot h3{
+    position: relative;
+    left: 50px;
+    bottom: -50px;
+    /* border: solid 1px; */
+    font-size: 100px;
+    width:200px;
+}
+.second{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 50px 20px;
+}
+.second h3{
+    color: #0d2a5e;
+    font-size: 22px;
+    margin: 15px 0 10px;
+}
+.second p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+footer{
+    background: #bbdefb;
+    color: #0d47a1;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+input textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: solid 1px #ccc;
+}
+.section body{
+    background-color:red;
+}
+.section{
+    max-width: 1110px;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #0d2a5e;
+}
+.car:hover,input[type="submit"]:hover{
+    background: #0047ab;
+}
+.order{
+    position: relative;
+    left: 80%;
+    width: 190px;
+    height: 30px;
+    padding-top: 50px;
+}
+.foot{
+     background: #bbdefb;
+    color: #0d47a1;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;   
+    margin-top: -50px;
+}
+.page{
+     position: relative;
+     left: 90%;
+     top: -30px;
+}
+.pag{
+    position: relative;
+    left: 80%;
+}
+.age{
+    position: relative;
+    left: 280px;
+    bottom: -180px;
+}
